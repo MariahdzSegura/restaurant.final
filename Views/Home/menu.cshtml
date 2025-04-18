@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu - Sinaloa Restaurant</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Sinaloa Restaurant</h1>
+<nav>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="reservation.html">Reservation</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- Menu Section -->
+<section id="menu">
+    <h3>Our Menu</h3>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagen/1.webp" alt="Sushi Jalisco">
+                <p>Sushi Jalisco - $12</p>
+            </div>
+            <div class="carousel-item">
+                <img src="imagen/2.jpg" alt="Sushi California">
+                <p>Sushi California - $10</p>
+            </div>
+            <div class="carousel-item">
+                <img src="imagen/3.jpg" alt="Sushi Tempura">
+                <p>Sushi Tempura - $14</p>
+            </div>
+            <div class="carousel-item">
+                <img src="imagen/5.jpg" alt="Taco al Pastor">
+                <p>Taco al Pastor - $8</p>
+            </div>
+            <div class="carousel-item">
+                <img src="imagen/7.jpg" alt="Taco de Pescado">
+                <p>Taco de Pescado - $9</p>
+            </div>
+        </div>
+        <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+</section>
+<footer>
+<p>&copy; 2023 Sinaloa Restaurant.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
